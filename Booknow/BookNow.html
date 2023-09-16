@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Mel Bookings</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="whole-nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <img class="logo-image" src="logo.webp">
+        <div class="button-container">
+          <a href="http://127.0.0.1:5500/Home/home.html" class="button-1">HOME</a>
+          <a href="http://127.0.0.1:5500/Gallery/Gallery.html" target="_blank" class="button-1">GALLERY</a>
+          <a href="http://127.0.0.1:5500/Features/features.html" class="button-1">FEATURES</a>
+          <a href="http://127.0.0.1:5500/Booknow/BookNow.html" class="button-1">BOOK NOW</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="logo.webp">
+      <source src="WhatsApp Video 2023-09-14 at 16.22.48.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="container-2">
+    <form action="mailto:prasanth76200@gmail.com" >
+      <p class="heading-book">BOOK YOUR SPACE IN CASA-MEL</p>
+      <div class="elem-group">
+        <label  class= "Form-name" for="name">Your Name</label>
+        <input class="text-box js-name" type="text" id="name" name="visitor_name" placeholder="CASA MEL" pattern=[A-Z\sa-z]{3,20} required >
+      </div>
+      <div class="elem-group">
+        <label  class= "Form-name" for="email">Your E-mail</label>
+        <input  class="mail-box js-mail" type="email" id="email" name="visitor_email" placeholder="CASA.MEL@email.com" required>
+      </div>
+      <div class="elem-group">
+        <label  class= "Form-name" class= "Form-name" for="phone">Your Phone</label>
+        <input class="text-box js-phoneNumber" type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+      </div>
+      <hr>
+      <div class="elem-group inlined">
+        <label  class= "Form-name" for="adult">Adults</label>
+        <input  class="text-box js-totalAdults" type="number" id="adult" name="total_adults" placeholder="0" min="1" required>
+      </div>
+      <div class="elem-group inlined">
+        <label  class= "Form-name" for="child">Children</label>
+        <input class="text-box  js-totalChildren" type="number" id="child" name="total_children" placeholder="0" min="0" required>
+      </div>
+      <div class="elem-group inlined">
+        <label  class= "Form-name" for="checkin-date">Check-in Date</label>
+        <input  class="text-box  cDate" type="date" id="checkindate" name="checkin" required>
+      </div>
+      <div class="elem-group inlined">
+        <label  class= "Form-name" for="checkout-date">Check-out Date</label>
+        <input class="text-box js-checkOut" type="date" id="checkout-date" name="checkout" required>
+      </div>
+      <div class="elem-group">
+        <label  class= "Form-name" for="room-selection">Select Room Preference</label>
+        <select class="text-box" id="room-selection" name="room_preference" required>
+            <option value="Choose a Room from the List">Choose a Room from the List</option>
+            <option value="Premium Double Rooms">Premium Double Rooms</option>
+            <option value="The Suite">The Suite</option>
+            <option value="The Studio">The Studio</option>
+        </select>
+      </div>
+      <hr>
+      <div class="elem-group">
+        <label  class= "Form-name" for="message">Anything Else?</label>
+        <textarea class="text-box" id="message" name="visitor_message" placeholder="Tell us anything else that might be important."></textarea>
+      </div>
+      <button class="text-box-2" type="submit" onclick=" nameValue()">Book The Rooms</button>
+      <p class="success">Success</p>
+    </form>
+
+
+  </div>
+
+  <div class="container-3">
+  </div>
+  <footer>
+    <div class="mail-whatsapp-insta">
+      <a href="mailto:bookings@casamel.in" class="float-3"
+        target="_blank">
+        <img src="mail_icon.png" class="my-float-3">
+      </a>
+      <a href="https://wa.me/9163585699 " class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
+      <a href="https://instagram.com/casamel_pondy?igshid=YmMyMTA2M2Y=" class="float-2" target="_blank">
+        <i class="fa fa-instagram my-float-2"></i>
+      </a>
+    </div>
+    <div>
+
+      <a href="https://www.booking.com/hotel/in/casa-mel.en-gb.html " class=" " target="_blank">
+        <img class="airbnb-image" src="Booking.Com-logo-768x432.png " data-toggle="tooltip" data-placement="top"
+          title="Book through the BOOKING.COM"></a>
+
+
+      <a href="https://www.airbnb.co.in/rooms/756862579974345847?source_impression_id=p3_1694542147_C%2FETU0iVIp116OFr "
+        class=" " target="_blank"> <img class="airbnb-image-2" src="airbnb.png" data-toggle="tooltip"
+          data-placement="top" title="Book through the AIRBNB"></a>
+
+    </div>
+
+
+    <img class="qr-code" src="qrcode.68332001.jpg"><span>GOOGLE REVIEWS</span>
+
+    <div class="address-div">
+      <address><span class="Address-style">Address</span>:<br>
+        108 Mission Street, opp. Indian Terrain Showroom, Heritage Town, Pondicherry - 605001</address>
+      <label class="copy">CopyRights &copy 2023</label>
+
+
+
+    </div>
+    </div>
+  </footer>
+
+
+
+  <script src="booknow.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>

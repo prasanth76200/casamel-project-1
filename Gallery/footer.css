@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+footer{
+  color: rgb(0, 0, 0);
+	background-color: bisque;
+
+}
+.mail-whatsapp-insta{
+  margin-left: 80%;
+  padding-top: 50px;
+  
+
+}
+
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:50px;
+  background-image: linear-gradient(to right,#84fab0 0% ,#84fab0 100%);	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.float-2{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:150px;
+	background-image: linear-gradient(to right, #ef43be 0%, #5a93f5 51%, #e8a8d6 100%);;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float-2{
+	margin-top:16px;
+}
+.float-3{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:250px;
+	background-color: red;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:20px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float-3{
+  margin-top: 10px;
+	margin-bottom:10px;
+  width: 40px;
+}
+.address-div{
+  padding-top: 100px;
+  margin-left: 500px;
+ 
+
+}.Address-style{
+  font-size: 30px;
+  color: orange;
+	margin-left: 250px;
+
+}
+.airbnb-image{
+	width: 200px;
+	margin-left: 600px;
+}
+.airbnb-image-2{
+	width: 200px;
+	margin-left: 60px;
+	padding-bottom: 20px;
+	
+}.qr-code{
+	width: 200px;
+	margin-left: 700px;
+	margin-bottom: -100px;
+}.copy{
+border: 1px solid ;
+	margin-left: 220px;
+}strong{
+	color: #ef43be;
+	text-decoration: none;
+}.created{
+	text-decoration: none;
+	bottom: 100px;
+}

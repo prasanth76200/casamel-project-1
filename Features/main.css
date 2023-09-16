@@ -1,0 +1,213 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.photo-1{
+  display: flex;
+  position: relative;
+  margin-bottom: 300px;
+
+
+}.photo-2{
+  position: absolute;
+  bottom: -0px;
+  left: 300px;
+}
+.bulding{
+  width: 350px;
+  padding-top: 200px;
+  padding-left: 100px;
+  border: 1px solid;
+}
+.casa-2{
+  border: 1px solid ;
+  width: 350px;
+}
+ 
+.AMENITIES{
+  position: absolute;
+  top:200px;
+  left:700px
+}
+.AMENITIES h1{
+  font-family: "Roboto", "Helvetica Neue";
+  font-size: 40px;
+  text-align: center;
+  background-color:  #e68c17;
+  color: white;
+  font-family:  'Roboto', sans-serif;
+  border: 7px solid ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+}
+.AMENITIES-para{
+  margin-top: 40px;
+  font-family: "Roboto", "Helvetica Neue";
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 500;
+  
+  position: relative;
+}.iron{
+  width: 80px;
+  margin-top: 40px;
+  
+  
+  
+}
+.iron-1{
+  position: absolute;
+  width: 60px;
+  top:180px;
+  transition:transform 500ms 
+
+}.wifi{
+  display: inline-block;
+  padding-top: 70px;
+  padding-left: 10px;padding-bottom: 150px;
+}
+.iron-1:hover{
+  transform: scale(1.5);
+}
+
+.iron-2{
+  position: absolute;
+  display: flex;
+  top:160px;
+  left:130px;
+  transition:transform 500ms 
+
+
+
+}.iron-2:hover{
+  transform: scale(1.5);
+}.wifi-2{
+  display: inline-block;
+  padding-left: 60px;
+}
+
+.iron-3{
+  position: absolute;
+  display: flex;
+  top:160px;
+  left:280px;
+  transition:transform 500ms 
+
+
+
+}.wifi-3{
+  display: inline-block;
+  padding-left: 40px;
+}.iron-3:hover{
+  transform: scale(1.5);
+}.iron-4{
+  width:180px;
+  position: absolute;
+  top:194px;
+  left:370px;
+  transition:transform 500ms 
+
+}.iron-4:hover{
+  transform: scale(1.5);
+}.wifi-3{
+  display: inline-block;
+  padding-left: 36px;
+
+}
+.iron-5{
+  position: absolute;
+  top:169px;
+  left:554px;
+  transition:transform 500ms 
+
+  
+}.iron-5:hover{
+  transform: scale(1.5);
+}.wifi-3{
+  padding-top: 120px !important;
+  padding-left: 35px;
+  align-items: center;
+ 
+}.iron-6{
+  position: absolute;
+  top:177px;
+  left:670px;
+  transition:transform 500ms 
+
+}.iron-6:hover{
+  transform: scale(1.5);
+}.wifi-4{
+  display: inline-block;
+   padding-top:100px;
+   
+   
+ }.iron-7{
+  position: absolute;
+ bottom:10px;
+
+  right: 730px;
+  width:120px;
+  transition:transform 500ms 
+
+  
+}.iron-7:hover{
+  transform: scale(1.5);
+}.wifi-5{
+ padding-top: 30px;
+ padding-left: 10px;
+
+}
+ .iron-8{
+  position: absolute;
+  bottom:10px;
+  right: 520px;
+  width:120px;
+  transition:transform 500ms 
+
+}.iron-8:hover{
+  transform: scale(1.5);
+}.wifi-6{
+  padding-left: 120px!important;
+
+
+}
+ .iron-9{
+  position: absolute;
+  bottom: 10px;
+  right: 330px;
+  width:130px;
+  transition:transform 500ms 
+
+}.iron-9:hover{
+  transform: scale(1.5);
+}.wifi-7{
+  padding-left: 100px!important;
+
+
+}
+ .iron-10{
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+  width:220px;
+  transition:transform 500ms 
+
+}.iron-10:hover{
+  transform: scale(1.5);
+}.wifi-8{
+  padding-left: 60px!important;
+
+
+}
